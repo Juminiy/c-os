@@ -1,18 +1,10 @@
-#include "linkedlist.h" 
-#include "thread.h" 
-ll * list =  NULL ;
-
-void ll_opt(){
- for (int i=1;i<=10;i++) {
-  list = addll(list,i);
- }
- tranll(list);
- delll(list,5);
- tranll(list);
-}
+#include "./algo/sort.c"
+#include "stdio.h"
 
 int main(){ 
- create(ll_opt);
- create(ll_opt);
- return 0 ;
+    int arr[100]={0,2,3,4,5,6,0};
+    printf("pre = %d",arr[2]);
+    swp_test(arr,2,-90);
+    printf("now = %d",arr[2]);
+    return 0 ;
 }
