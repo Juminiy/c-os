@@ -3,23 +3,11 @@
 #include "def.h"
 
 
-void _swp_int(void *a,void *b) { 
-    int tmp = a ;
-    a = b ;
-    b = tmp ; 
-}
 int _cmp_int(const void *a,const void *b) { 
     int val_a = (int) a ; 
     int val_b = (int) b ; 
-    return a < b ;  
+    return val_a > val_b ;  
 }
-
-
-// void _swp(int *a, int *b) {
-//     int tmp = *a ; 
-//     *a = *b ;
-//     *b = tmp ; 
-// }
 
 void _output_format(int *arr,int n) {
     for(int i=0;i<n;i++) {
