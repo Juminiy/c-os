@@ -1,12 +1,12 @@
 
 #include <stdio.h>
-#include <cstring.h> 
+#include <string.h> 
 
-int qread(){
+int _qread(){
     int x = 0 , sgn = 1 ; 
     char ch = getchar();
     while(ch < '0' || ch > '9') {
-        if (ch == '-') f = -1 ;
+        if (ch == '-') sgn = -1 ;
         ch = getchar();
     }
     while(ch >= '0' && ch <= '9') {
@@ -14,4 +14,12 @@ int qread(){
         ch = getchar(); 
     }
     return x * sgn ;  
+}
+
+void test_qread() {
+    int x = _qread() ;
+    while(x != 99999999 ) {
+        printf("%d\n",x) ;
+        x = _qread() ; 
+    }
 }
