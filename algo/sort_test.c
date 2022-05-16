@@ -26,7 +26,7 @@ void swp_void_test_case1() {
 
 
 void cmp_int_test_case1() {
-    printf("cmp_int_test_case1\n");
+    printf("cmp_int_test_case1 : \n");
     int arr[10] ={8,7,6,9,12,13,77,1,-1,0} ; 
     printf("%d\n",_cmp_int(&(arr[1]),&(arr[2]))); // expected at 0
     printf("%d\n",_cmp_int(&(arr[2]),&(arr[1]))); // expected at 1 
@@ -34,7 +34,7 @@ void cmp_int_test_case1() {
 
 
 void swp_int_test_case1() { 
-    printf("swp_int_test_case1\n");
+    printf("swp_int_test_case1 : \n");
     int arr[10] ={8,7,6,9,12,13,77,1,-1,0} ; 
     
     // expected at 7 6 
@@ -51,7 +51,7 @@ void swp_int_test_case1() {
 
 
 void swp_int_test_case2() {
-    printf("swp_int_test_case2\n");
+    printf("swp_int_test_case2 : \n");
     int arr[10] ={8,7,6,9,12,13,77,1,-1,0} ; 
     // expected at 
     printf("value 1 = %d , value 2 = %d\n",arr[3],arr[5]); 

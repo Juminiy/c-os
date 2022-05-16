@@ -18,20 +18,20 @@ void _swp_void(void *a , void *b,size_t sz) {
     free(tmp) ;
 }
 
-
+// 2022.5.15 makefile 
 // quick sort realize 
-// the algo is assigned in luogu 
+// the algo is assigned by 1e10 amount int and struct data.
 void _q_sort(void *arr , int l ,int r ,size_t sz , _cmp cmp ) { 
     if (l >= r) return ; 
-    void *pivot = & (arr[ (r-l) / 2 + l ]) ; 
+    void *pivot = & (arr[ ( (r-l) / 2 + l) * sz ]) ; 
     // prinf addr 
     // printf("pivot addr = %p \n ",pivot) ; 
     int j = r , i = l ; 
     while (i <= j) { 
-        while( cmp( pivot , &(arr[j]) ) ) { 
+        while( cmp( pivot , &(arr[j * sz]) ) ) { 
             j -- ; 
         } 
-        while( cmp( &(arr[i]) , pivot ) ) { 
+        while( cmp( &(arr[i * sz]) , pivot ) ) { 
             i ++ ; 
         } 
         if (i <= j) { 
@@ -39,7 +39,7 @@ void _q_sort(void *arr , int l ,int r ,size_t sz , _cmp cmp ) {
             // case int print pre val 
             // int *pai = (int *) (&(arr[i])) , *paj = (int *) (&(arr[j])) ;  
             // printf("\n pre : arr[%d] = %d , arr[%d] = %d \n",i,*pai,j,*paj) ; 
-            _swp_void( & (arr[i]) , & (arr[j]) , sz ) ; 
+            _swp_void( & (arr[i * sz]) , & (arr[j * sz]) , sz ) ; 
             // case int print post val
             // *pai = (int *) (&(arr[i])) , *paj = (int *) (&(arr[j])) ; 
             // printf("post : arr[%d] = %d , arr[%d] = %d \n",i,*pai,j,*paj) ; 
