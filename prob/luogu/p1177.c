@@ -42,7 +42,7 @@ void _q_sort(int *arr , int l ,int r) {
     if (i <= r) { _q_sort(arr,i,r) ; }
     if (l <= j) { _q_sort(arr,l,j) ; }
 }
-void _qsort(int *arr, int n) { 
+void _void_qsort(int *arr, int n) { 
     _q_sort( arr , 0 , n-1 ) ; 
 } 
 
@@ -52,7 +52,7 @@ int main() {
     for (int i=0;i<n;i++) { 
         arr[i] = _qread() ; 
     } 
-    _qsort(arr,n) ; 
+    _void_qsort(arr,n) ; 
     _output_format(arr,n) ; 
     return 0 ; 
 }

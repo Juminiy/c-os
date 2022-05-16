@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h> 
 
@@ -16,10 +15,3 @@ int _qread(){
     return x * sgn ;  
 }
 
-void test_qread() {
-    int x = _qread() ;
-    while(x != 99999999 ) {
-        printf("%d\n",x) ;
-        x = _qread() ; 
-    }
-}
