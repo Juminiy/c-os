@@ -57,9 +57,9 @@ void _void_q_sort(void *arr , int l ,int r ,size_t sz , _cmp cmp ) {
         }
     } 
 
-    if (i <= r) { _q_sort( arr, i, r, sz, cmp ) ; }
+    if (i <= r) { _void_q_sort( arr, i, r, sz, cmp ) ; }
 
-    if (l <= j) { _q_sort( arr, l, j, sz, cmp ) ; }
+    if (l <= j) { _void_q_sort( arr, l, j, sz, cmp ) ; }
 
 }
 // 2021.5.16 success void_sort.

@@ -22,7 +22,7 @@ int _cmp_stu(const void *a,const void *b) {
 
 }
 
-void _int_output(stu *arr , int n) { 
+void _stu_output(stu *arr , int n) { 
 
     printf("arr{ ") ; 
     _loop( i , 0 , n-1 ) {
