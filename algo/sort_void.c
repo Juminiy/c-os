@@ -21,24 +21,26 @@ void _swp_void(void *a , void *b,size_t sz) {
 
 // quick sort realize 
 // the algo is assigned in luogu 
-void _q_sort(void *arr , int l ,int r ,_cmp cmp ) { 
+void _q_sort(void *arr , int l ,int r ,size_t sz , _cmp cmp ) { 
     if (l >= r) return ; 
     void *pivot = & (arr[ (r-l) / 2 + l ]) ; 
+    // prinf addr 
+    // printf("pivot addr = %p \n ",pivot) ; 
     int j = r , i = l ; 
     while (i <= j) { 
         while( cmp( pivot , &(arr[j]) ) ) { j -- ; } 
         while( cmp( &(arr[i]) , pivot ) ) { i ++ ; } 
         if (i <= j) { 
-            _swp_void( & (arr[i]) , & (arr[j]) , sizeof(arr[i])) ; 
+            _swp_void( & (arr[i]) , & (arr[j]) , sz ) ; 
             i ++ , j -- ; 
         }
     } 
-    if (i <= r) { _q_sort( arr, i, r, cmp ) ; }
-    if (l <= j) { _q_sort( arr, l, j, cmp ) ; }
+    if (i <= r) { _q_sort( arr, i, r, sz, cmp ) ; }
+    if (l <= j) { _q_sort( arr, l, j, sz, cmp ) ; }
 }
 
-void _qsort(void *arr_base, int n, _cmp cmp) { 
-    _q_sort( arr_base , 0 , n-1 , cmp ) ;  
+void _qsort(void *arr_base, int n, size_t sz , _cmp cmp) { 
+    _q_sort( arr_base , 0 , n-1 , sz , cmp ) ;  
 } 
 
 

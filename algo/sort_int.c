@@ -2,11 +2,13 @@
 #include <stdio.h>
 #include "def.h"
 
-
+// error 
 int _cmp_int(const void *a,const void *b) { 
-    int val_a = (int) a ; 
-    int val_b = (int) b ; 
-    return val_a > val_b ;  
+    int *val_a = (int*) a ; 
+    int *val_b = (int*) b ; 
+    // print addr & value 
+    // printf("\nptr_a = \naddr = %p , value = %d\n",val_a,*val_a) ;
+    return *val_a < *val_b ;  
 }
 
 void _output_format(int *arr,int n) {
