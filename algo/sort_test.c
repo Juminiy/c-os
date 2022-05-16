@@ -62,7 +62,7 @@ void swp_int_test_case2() {
 }
 
 void void_sort_test_int_case1() { 
-    printf("sort_test_void_case1\n");
+    printf("sort_test_void_case1 : \n");
     int arr[10] ={8,7,6,9,12,13,77,1,-1,0} ; 
     _output_arr(arr,10) ; 
     _qsort((void*)arr,10,sizeof(int),_cmp_int) ; 

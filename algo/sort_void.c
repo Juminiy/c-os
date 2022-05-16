@@ -6,7 +6,7 @@
 
 // compare function pointer
 typedef int (*_cmp) (const void * a,const void * b) ; 
-typedef void (*_swp) (void *a, void *b,size_t sz) ;  
+typedef void (*_swp) (void * a, void * b, size_t sz) ;  
 
 // generic swap memory copy and memory free 
 void _swp_void(void *a , void *b,size_t sz) {
@@ -28,10 +28,21 @@ void _q_sort(void *arr , int l ,int r ,size_t sz , _cmp cmp ) {
     // printf("pivot addr = %p \n ",pivot) ; 
     int j = r , i = l ; 
     while (i <= j) { 
-        while( cmp( pivot , &(arr[j]) ) ) { j -- ; } 
-        while( cmp( &(arr[i]) , pivot ) ) { i ++ ; } 
+        while( cmp( pivot , &(arr[j]) ) ) { 
+            j -- ; 
+        } 
+        while( cmp( &(arr[i]) , pivot ) ) { 
+            i ++ ; 
+        } 
         if (i <= j) { 
+            // the type problem is someth tricky 
+            // case int print pre val 
+            // int *pai = (int *) (&(arr[i])) , *paj = (int *) (&(arr[j])) ;  
+            // printf("\n pre : arr[%d] = %d , arr[%d] = %d \n",i,*pai,j,*paj) ; 
             _swp_void( & (arr[i]) , & (arr[j]) , sz ) ; 
+            // case int print post val
+            // *pai = (int *) (&(arr[i])) , *paj = (int *) (&(arr[j])) ; 
+            // printf("post : arr[%d] = %d , arr[%d] = %d \n",i,*pai,j,*paj) ; 
             i ++ , j -- ; 
         }
     } 
