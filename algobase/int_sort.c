@@ -1,11 +1,10 @@
-#include <stdlib.h> 
 #include <stdio.h>
-#include "def.h"
+#include "base_def.h"
 #include "void_qsort.c"
-
+#include "void_msort.c"
 
 // compare function int realization
-int _cmp_int(const void *a,const void *b) { 
+int _int_cmp(const void *a,const void *b) { 
     int *val_a = (int*) a ; 
     int *val_b = (int*) b ; 
     // print addr & value 
@@ -14,9 +13,13 @@ int _cmp_int(const void *a,const void *b) {
 }
 
 void _format_int_output(int *arr,int n) {
+    
     for(int i=0;i<n;i++) {
-        printf("%d ",arr[i]) ; 
+        printf( "%d " , arr[i] ) ; 
     }
+
+    puts("");
+    
 }
 
 void _int_output(int *arr , int n) { 
@@ -27,6 +30,10 @@ void _int_output(int *arr , int n) {
     printf(" }\n") ;
 } 
 
-void _int_qsort(int * arr , int n ) {
-    _void_qsort( (void*)arr , n , sizeof(int) , _cmp_int ) ; 
+void _int_qsort( int *arr , int n ) {
+    _void_qsort( (void*)arr , n , sizeof(int) , _int_cmp ) ; 
+}
+
+void _int_msort( int *arr , int n ) {
+    _void_msort( (void*)arr , n , sizeof(int) , _int_cmp ) ; 
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h> 
 
 int _qread(){
     int x = 0 , sgn = 1 ; 

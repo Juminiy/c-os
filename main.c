@@ -1,13 +1,6 @@
 #include "stdio.h"
-#include "algo/struct_sort_example_test.c"
-// #include "algo/qcli_io.c"
+#include "drive_main.h"
 int main(){ 
-    // ll_test_case1();
-    // sort_test_case1(); 
-    // test_qread() ; 
-    // cmp_int_test_case1();
-    // swp_int_test_case2();  
-    // void_sort_test_int_case1();  
-    void_sort_test_struct_case1();  
+    _drive_main() ; 
     return 0 ;
 }
