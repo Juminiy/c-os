@@ -62,7 +62,75 @@ void ptr_calculate_test() {
     printf("pa = %p , addr[pa] = %p , addr[cur] = %p ,cur = %d \n" , pa , &pa , &cur , cur) ;
 }
 
-int main() { 
-    
+void ptr_to_ptrs() { 
+    int a = 10001 ;
+    int *pa = &a ;
+    int **ppa = &pa ; 
+    printf("addr[a] = %p , a = %d \naddr[pa] = %p , pa = %p\naddr[ppa] = %p ppa = %p\n" , &a,a,&pa,pa,&ppa,ppa) ; 
+    printf("a = %d\n",**ppa) ; 
+}
+
+
+void change_a( int a ) {
+    printf("addr[a] = %p\n",&a);
+    a = 666 ;
+}
+void ptr_arg_func_test( int * ptr ) {
+    printf("addr[ptr] = %p\n",ptr) ; 
+    * ptr = 888 ; 
+}
+void arr_arg_func_test( int arr[]) { 
+    printf("base addr[arr] = %p\n",arr) ;
+    arr[0] = 999 ; 
+}
+void ptr_arg_test_1() {
+    int a = 100 ;
+    int arra [100] = {-9,3,4,0};
+
+    printf("addr[arra[0]] = %p\n",arra) ; 
+
+    printf("arra[0] = %d\n" , arra[0]) ; 
+
+    change_a(arra[0]) ; 
+    printf("arra[0] = %d\n" , arra[0]) ; 
+    ptr_arg_func_test(arra) ; 
+    printf("arra[0] = %d\n" , arra[0]) ; 
+    arr_arg_func_test(arra) ; 
+    printf("arra[0] = %d\n" , arra[0]) ; 
+}
+void ppppa_ptr() {
+    int a = 2022 ;
+    int *pa= &a;
+    int **ppa = &pa;
+    int ***pppa = &ppa;
+    printf("%d, ***pppa size = %ld\n",***pppa,sizeof(pppa)) ; 
+}
+
+void two_d_arrs() { 
+    // ss 
+    int arr[3][4] = {{-1,202,3,132},{433,553,623,721},{-81,92,0x10,211}} ; 
+    /*
+    *   1 2 3 12 
+    *   4 5 6 7 
+    *   8 9 10 11  
+    */
+   printf("arr_base = %p\n",arr) ; 
+   printf("arr[0] = %p\n",arr[0]) ; 
+   printf("arr[1] = %p\n",arr[1]) ;
+   printf("arr[2] = %p\n",arr[2]) ;  
+   printf("[1][1] addr = %p , [1][1] val = %d\n",arr[1]+1 , *(arr[1] + 1) ) ;  
+
+   int * p = arr ; 
+   p = p + 5 ; 
+   printf("p = %p , pval = %d\n",p,*p) ; 
+
+     *p = -99999;
+     printf("arr[1][1] = %d\n",arr[1][1]) ; 
+
+
+}
+int main() {  
+    double ****************************** test_ptr_len = NULL ;
+    printf( "%d , %ld\n" , sizeof(test_ptr_len) ,sizeof(test_ptr_len) );
     return 0 ;
 }
