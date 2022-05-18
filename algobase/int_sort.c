@@ -2,6 +2,8 @@
 #include "base_def.h"
 #include "void_qsort.c"
 #include "void_msort.c"
+#include "void_bsort.c" 
+#include "void_hsort.c"
 
 // compare function int realization
 int _int_cmp(const void *a,const void *b) { 
@@ -30,10 +32,18 @@ void _int_output(int *arr , int n) {
     printf(" }\n") ;
 } 
 
-void _int_qsort( int *arr , int n ) {
-    _void_qsort( (void*)arr , n , sizeof(int) , _int_cmp ) ; 
+void _int_qsort( int * arr , int n ) {
+    _void_qsort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ; 
 }
 
-void _int_msort( int *arr , int n ) {
-    _void_msort( (void*)arr , n , sizeof(int) , _int_cmp ) ; 
+void _int_msort( int * arr , int n ) {
+    _void_msort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ; 
+}
+
+void _int_bsort( int * arr , int n) {
+    _void_bsort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ;
+}
+
+void _int_hsort( int * arr , int n ) {
+    _void_hsort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ; 
 }

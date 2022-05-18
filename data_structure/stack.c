@@ -3,7 +3,7 @@ typedef struct stack{
        
 } stack ;
 
-bool empty(stack *s) {
+int empty(stack *s) {
     
 }
 

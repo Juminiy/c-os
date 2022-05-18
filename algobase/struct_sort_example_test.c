@@ -1,7 +1,8 @@
 #include "struct_sort_example.c"
 #include <stdio.h>
 #include "base_def.h"
-void void_sort_test_struct_case1() { 
+
+void void_qsort_test_struct_case1() { 
     
     stu * stu_exa =  (stu *) malloc( sizeof(stu) * 100 ) ; 
 

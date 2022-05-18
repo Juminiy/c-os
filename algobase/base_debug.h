@@ -8,4 +8,20 @@ void _debug_integer ( int x ) {
     
 }
 
+void _debug_println( char * line ) {
+
+    puts( line ) ; 
+    
+}
+
+void _debug_void_to_int_arr( void *arr , int n ) {
+
+    printf("arr { ") ; 
+    for ( int i = 0;i < n ; i ++ ) {
+        printf ( "%d " , * ((int*) arr) ) ;  
+    }
+    puts("}");
+
+}
+
 #endif

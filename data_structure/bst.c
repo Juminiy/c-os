@@ -14,7 +14,7 @@ bst* delNode(bst* root , int data){
 
 }
 
-bool searchNode(bst * root, int data) {
+int searchNode(bst * root, int data) {
 
 } 
 
