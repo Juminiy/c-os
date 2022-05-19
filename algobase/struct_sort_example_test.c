@@ -4,7 +4,7 @@
 
 void void_qsort_test_struct_case1() { 
     
-    stu * stu_exa =  (stu *) malloc( sizeof(stu) * 100 ) ; 
+    stu * stu_exa =  (stu *) calloc( 100 , sizeof(stu) ) ; 
 
     int n ; 
     scanf("%d" , &n) ;

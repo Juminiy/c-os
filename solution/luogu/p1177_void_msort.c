@@ -77,7 +77,7 @@ void _void_m_div( void *arr_base , void *arr_tmp , int l , int r , size_t sz , _
 }
 
 void _void_msort(void *arr_base ,int n ,size_t sz , _cmp cmp) { 
-    void *arr_tmp = (void *) malloc( n * sz ) ; 
+    void *arr_tmp = (void *) calloc( n , sz ) ; 
     _void_m_div( arr_base , arr_tmp , 0 , n-1 , sz , cmp ) ; 
     free( arr_tmp ) ; 
 }

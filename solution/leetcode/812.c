@@ -57,7 +57,7 @@ double max_v4(double v1,double v2,double v3,double v4) {
     return v12 > v34 ? v12 : v34 ; 
 }
 double largestTriangleArea(int** points, int pointsSize, int* pointsColSize){
-    point *pts = (point*) malloc(sizeof(point)*pointsSize) ; 
+    point *pts = (point*) calloc( pointsSize , sizeof(point)) ; 
     for(int i=0;i<pointsSize;i++) {
         pts[i].x = points[i][0] ;
         pts[i].y = points[i][1] ;  

@@ -6,6 +6,7 @@
         "void_mem.h": "c",
         "stdlib.h": "c",
         "base_def.h": "c",
-        "stdlib-bsearch.h": "c"
+        "stdlib-bsearch.h": "c",
+        "new": "cpp"
     }
 }

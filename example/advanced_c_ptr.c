@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 void base_test() {
      // printf("char = %ld,short int = %ld,int = %ld,long int = %ld,double = %ld,float = %ld",sizeof(char),sizeof(short int), sizeof(int),sizeof(long),sizeof(double),sizeof(float)); 
     
@@ -47,7 +48,7 @@ void base_test() {
 }
 
 void ptr_calculate_test() {  
-    int *pa = ( int * ) malloc( sizeof (int) * 1  ) ; 
+    int *pa = ( int * ) calloc( 1 , sizeof (int)  ) ; 
     *( pa + 1 ) = 1 ;
     *( pa + 2 ) = 9 ;
     *( pa + 3 ) = 11 ;
@@ -83,6 +84,7 @@ void arr_arg_func_test( int arr[]) {
     printf("base addr[arr] = %p\n",arr) ;
     arr[0] = 999 ; 
 }
+
 void ptr_arg_test_1() {
     int a = 100 ;
     int arra [100] = {-9,3,4,0};
@@ -98,12 +100,16 @@ void ptr_arg_test_1() {
     arr_arg_func_test(arra) ; 
     printf("arra[0] = %d\n" , arra[0]) ; 
 }
+
 void ppppa_ptr() {
     int a = 2022 ;
     int *pa= &a;
     int **ppa = &pa;
     int ***pppa = &ppa;
     printf("%d, ***pppa size = %ld\n",***pppa,sizeof(pppa)) ; 
+
+    double ****************************** test_ptr_len = NULL ;
+    printf( "%ld , %ld\n" , sizeof(test_ptr_len) ,sizeof(test_ptr_len) );
 }
 
 void two_d_arrs() { 
@@ -120,7 +126,7 @@ void two_d_arrs() {
    printf("arr[2] = %p\n",arr[2]) ;  
    printf("[1][1] addr = %p , [1][1] val = %d\n",arr[1]+1 , *(arr[1] + 1) ) ;  
 
-   int * p = arr ; 
+   int * p = & ( arr[0][0] ) ; 
    p = p + 5 ; 
    printf("p = %p , pval = %d\n",p,*p) ; 
 
@@ -129,8 +135,45 @@ void two_d_arrs() {
 
 
 }
+
+void test_char_ptr_as_func_args( char * s) {
+    s[3] = 'P' ; 
+}
+void test_char_ptr() { 
+
+    char str[8] = "abcde" ; 
+    printf("%s\n" , str );
+    int sl = strlen( str ) ; 
+    str[2] = 'x' ; 
+    char *strptr = str ; 
+    * ( strptr + 3 ) = 'G' ; 
+    printf("len = %d , %s\n", sl , str ) ; 
+    test_char_ptr_as_func_args(str) ; 
+    puts(str) ; 
+
+    char s2[] = { '1' , '2' , '3' } ; 
+    s2[0] = '2' ; 
+    printf("s2= %s\n" , s2) ; 
+} 
+
+void test_char_arr_pt(char *c) {
+    for ( ; *c ; c++ ) { 
+        putchar( *c ) ; 
+    }
+    puts("") ; 
+}
+
+void test_void_ptr (void * arr_base , size_t sz) {
+
+    
+
+}
 int main() {  
-    double ****************************** test_ptr_len = NULL ;
-    printf( "%d , %ld\n" , sizeof(test_ptr_len) ,sizeof(test_ptr_len) );
+    char cx[20] = { 'a' , 'b', 'c' , 'd', 'e' } ; 
+    cx[3] = 'G' ;  
+    char C[20] = "abc" ; 
+    C[0] = 'M' ; 
+    test_char_arr_pt( C ) ; 
+    puts( cx ) ;  
     return 0 ;
 }

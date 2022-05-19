@@ -10,7 +10,7 @@ void _drive_main() {
     // swp_int_test_case2();  
     // void_qsort_test_int_case1();  
     // void_sort_test_struct_case1();
-    // void_msort_test_int_case1(); 
+    void_msort_test_int_case1(); 
     // void_bsort_test_int_case1() ; 
-    void_hsort_test_int_case1() ; 
+    // void_hsort_test_int_case1() ; 
 }

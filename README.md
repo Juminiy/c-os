@@ -1,11 +1,27 @@
-# concur
-> point at concurrency example in https://jyywiki.cn/OS/2022/ course .
+# directory list
+- algobase
+- concurrency
+- data_structure
+- example 
+# concurrency
 
-# ds
+> Point at concurrency example in https://jyywiki.cn/OS/2022/ course .
+
+# data_structure
+
 > Data stucture is written in amazing way by C language .   
 
 # algobase
+
 > Basic and Advanced algorithm are realized by C language .  
+
+# web
+
+> Web dev in C or C++ tries . 
+
+# example 
+
+> Some c & c++17 standard test case example . 
 
 # given privilege
 ````bash 
