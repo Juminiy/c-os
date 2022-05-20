@@ -52,6 +52,5 @@ Mkfile.old
 dkms.conf
 
 # File folder ignore
-web/*
 example/*
 solution/*
