@@ -16,7 +16,6 @@
 
 > Basic and Advanced algorithm are realized by C language .  
 
-
 # given privilege
 ````bash 
 find /path/to -type d -exec chmod 777 {} \;

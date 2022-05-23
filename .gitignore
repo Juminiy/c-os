@@ -54,3 +54,4 @@ dkms.conf
 # File folder ignore
 example/*
 solution/*
+.vscode/*

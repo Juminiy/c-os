@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# read curname
+# echo "Hello, $curname"
+
+# myname="Chisato"
+# echo $myname
+# unset myname
+# echo $myname
+
+# echo "docker container runtime : " 
+# bash da
+
+# echo "current proccess id" 
+# echo $$
+
+# for var_i in $*
+# do 
+#     echo $var_i
+# done
+
+# declare -a arr=( "1,2,3 " "2,3,4" "3,4,5" )
+# for i in "${arr[@]}"
+# do
+#    echo "$i"
+# done
+
+# echo ${arr[1]} 
+
+# null,n 继续
+# cnt=0
+# while [ "$cnt" -lt 10 ] 
+# do 
+#     echo "Pause ? y:n OR Stop forcibly Ctrl+C "
+#     read stop_y 
+#     if [ -n "$stop_y" -a "$stop_y" = "y" ] ; then  
+#         break 
+#     fi 
+#     echo "Input a : "
+#     read int_a
+#     echo "Input b : "
+#     read int_b
+#     res=`expr $int_a + $int_b`
+#     if [ "$res" -lt 100 ] ; then
+#         echo "result < 100"
+#     elif [ "$res" -ge 100 -a "$res" -lt 200 ] ; then 
+#         echo "result >= 100 and result < 200"
+#     else 
+#         echo "result >= 200"
+#     fi
+#     cnt=`expr $cnt + 1`
+# done 
+# echo $res 
+
+date_output=`date`
+echo $date_output
