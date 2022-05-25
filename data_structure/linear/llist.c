@@ -1,17 +1,23 @@
+
+#ifndef _ADS_LLIST_C
+#define _ADS_LLIST_C
+
 #include <stdio.h> 
 #include <stdlib.h>
-typedef struct linkednode{
+
+typedef struct linked_node{
     int data;
-    struct linkednode *next;
-}ln;
-typedef struct linkedlist{
+    struct linked_node *next;
+} ln ;
+
+typedef struct linked_list{
     ln * head;
     ln * tail;
     int len;
 } ll ;
 
 
-ll* addll(ll * list,int data) { 
+ll* add_ll(ll * list,int data) { 
     ln * new_node = (ln*) malloc(sizeof(ln));
     new_node -> data = data ;
     new_node -> next = NULL ;
@@ -28,7 +34,7 @@ ll* addll(ll * list,int data) {
     return list ; 
 }
 
-ll* delll(ll * list,int key) {
+ll* del_ll(ll * list,int key) {
     if (list == NULL ) {
         printf("Linkedlist is NULL,never can find key : %d\n",key);
     } else {
@@ -47,7 +53,7 @@ ll* delll(ll * list,int key) {
     return list ;
 }
 
-void tranll(ll *list) { 
+void tran_ll(ll *list) { 
     if (list != NULL) {
         ln * hd = list -> head ;
         printf("LinkedList [%p] :",list);
@@ -59,3 +65,4 @@ void tranll(ll *list) {
     printf("NULL\n");
 }
 
+#endif 

@@ -1,5 +1,5 @@
-#ifndef _BASE_DEBUG_C
-#define _BASE_DEBUG_C
+#ifndef _BASE_DEBUG_H
+#define _BASE_DEBUG_H
 #include <stdio.h> 
 
 void _debug_integer ( int x ) { 

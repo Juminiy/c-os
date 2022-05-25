@@ -1,3 +1,6 @@
+#ifndef _INT_QIO_C
+#define _INT_QIO_C
+
 #include <stdio.h>
 
 int _qread(){
@@ -14,3 +17,4 @@ int _qread(){
     return x * sgn ;  
 }
 
+#endif

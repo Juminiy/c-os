@@ -16,12 +16,18 @@
 
 > Basic and Advanced algorithm are realized by C language .  
 
-# given privilege
+# give privilege
 ````bash 
 find /path/to -type d -exec chmod 777 {} \;
 # example 
 find /home/ubuntu/code/c -type d -exec chmod 777 {} \;
 ```` 
+
+# tree-dir
+````bash
+npm install -D markdown-notes-tree
+markdown-notes-tree
+````
 
 # run the example
 > Write sth in `drive_main.h` and run the cmd :

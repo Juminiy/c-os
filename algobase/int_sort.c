@@ -1,3 +1,6 @@
+#ifndef _INT_SORT_C
+#define _INT_SORT_C
+
 #include <stdio.h>
 #include "base_def.h"
 #include "void_qsort.c"
@@ -47,3 +50,5 @@ void _int_bsort( int * arr , int n) {
 void _int_hsort( int * arr , int n ) {
     _void_hsort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ; 
 }
+
+#endif 
