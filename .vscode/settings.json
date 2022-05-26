@@ -9,5 +9,6 @@
         "stdlib-bsearch.h": "c",
         "new": "cpp",
         "semaphore.h": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

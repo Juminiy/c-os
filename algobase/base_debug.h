@@ -14,11 +14,11 @@ void _debug_println( char * line ) {
     
 }
 
-void _debug_void_to_int_arr( void *arr , int n ) {
+void _debug_void_to_int_arr( int *arr , int n ) {
 
     printf("arr { ") ; 
-    for ( int i = 0;i < n ; i ++ ) {
-        printf ( "%d " , * ((int*) arr) ) ;  
+    for ( int i = 0;i < n ; i ++ ) { 
+        printf ("%d ",arr[i]) ;   
     }
     puts("}");
 

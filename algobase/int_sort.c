@@ -43,6 +43,10 @@ void _int_msort( int * arr , int n ) {
     _void_msort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ; 
 }
 
+void _int_msort_2( int * arr , int n ) {
+    _void_msort_2( (void * ) arr , n , sizeof(int) , _int_cmp ) ; 
+}
+
 void _int_bsort( int * arr , int n) {
     _void_bsort( ( void * ) arr , n , sizeof(int) , _int_cmp ) ;
 }
