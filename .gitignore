@@ -55,3 +55,5 @@ dkms.conf
 example/*
 solution/*
 .vscode/*
+web/*
+*.html
