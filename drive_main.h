@@ -1,5 +1,5 @@
-#include "algobase/struct_sort_example_test.c"
-#include "algobase/int_sort_test.c" 
+#include "src/algobase/struct_sort_example_test.c"
+#include "src/algobase/int_sort_test.c" 
 
 void _drive_main() {
 
