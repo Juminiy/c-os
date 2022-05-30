@@ -21,6 +21,7 @@
 find /path/to -type d -exec chmod 777 {} \;
 # example 
 find /home/ubuntu/code/c -type d -exec chmod 777 {} \;
+find /home/ubuntu/code/c-os/tests/compiler -type d -exec chmod 777 {} \;
 ```` 
 
 # tree-dir
