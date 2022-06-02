@@ -10,7 +10,8 @@
         "new": "cpp",
         "semaphore.h": "c",
         "drive_main.h": "c",
-        "thread.h": "c"
+        "thread.h": "c",
+        "tree_node.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

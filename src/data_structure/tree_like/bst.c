@@ -1,14 +1,14 @@
 
 #ifndef _ADS_BST_C
 #define _ADS_BST_C
+
 #include <stdio.h>
 #include <string.h> 
+#include "tree_node.h"
 
 typedef struct binary_search_tree{ 
 
-    struct binary_search_tree * left , * right ;
-
-    void * data ; 
+    tree_node * self ; 
 
 } bst ;
 
