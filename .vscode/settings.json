@@ -12,7 +12,9 @@
         "drive_main.h": "c",
         "thread.h": "c",
         "tree_node.h": "c",
-        "assert.h": "c"
+        "assert.h": "c",
+        "cstdlib": "c",
+        "atomic": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
