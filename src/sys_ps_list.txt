@@ -1,0 +1,363 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 166960 12240 ?        Ss   10:36   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    10:36   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   10:36   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   10:36   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   10:36   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   10:36   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   10:36   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    10:36   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    10:36   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    10:36   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    10:36   0:27 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    10:36   0:27 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    10:36   0:01 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/2:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/4]
+root          39  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/4]
+root          40  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/4]
+root          41  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/4:0H-events_highpri]
+root          44  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/5]
+root          45  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/5]
+root          46  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/5]
+root          47  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/5:0H-events_highpri]
+root          50  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/6]
+root          51  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/6]
+root          52  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/6]
+root          53  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/6]
+root          55  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/6:0H-events_highpri]
+root          56  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/7]
+root          57  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/7]
+root          58  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/7]
+root          59  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/7]
+root          61  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/7:0H-events_highpri]
+root          62  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/8]
+root          63  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/8]
+root          64  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/8]
+root          65  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/8]
+root          67  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/8:0H-events_highpri]
+root          68  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/9]
+root          69  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/9]
+root          70  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/9]
+root          71  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/9]
+root          73  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/9:0H-events_highpri]
+root          74  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/10]
+root          75  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/10]
+root          76  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/10]
+root          77  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/10]
+root          79  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/10:0H-events_highpri]
+root          80  0.0  0.0      0     0 ?        S    10:36   0:00 [cpuhp/11]
+root          81  0.0  0.0      0     0 ?        S    10:36   0:00 [idle_inject/11]
+root          82  0.0  0.0      0     0 ?        S    10:36   0:00 [migration/11]
+root          83  0.0  0.0      0     0 ?        S    10:36   0:00 [ksoftirqd/11]
+root          85  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/11:0H-kblockd]
+root          86  0.0  0.0      0     0 ?        S    10:36   0:00 [kdevtmpfs]
+root          87  0.0  0.0      0     0 ?        I<   10:36   0:00 [inet_frag_wq]
+root          88  0.0  0.0      0     0 ?        S    10:36   0:00 [kauditd]
+root          89  0.0  0.0      0     0 ?        S    10:36   0:00 [khungtaskd]
+root          91  0.0  0.0      0     0 ?        S    10:36   0:00 [oom_reaper]
+root          93  0.0  0.0      0     0 ?        I<   10:36   0:00 [writeback]
+root          94  0.0  0.0      0     0 ?        S    10:36   0:00 [kcompactd0]
+root          95  0.0  0.0      0     0 ?        SN   10:36   0:00 [ksmd]
+root          96  0.0  0.0      0     0 ?        SN   10:36   0:00 [khugepaged]
+root          97  0.0  0.0      0     0 ?        I<   10:36   0:00 [kintegrityd]
+root          98  0.0  0.0      0     0 ?        I<   10:36   0:00 [kblockd]
+root          99  0.0  0.0      0     0 ?        I<   10:36   0:00 [blkcg_punt_bio]
+root         101  0.0  0.0      0     0 ?        I<   10:36   0:00 [tpm_dev_wq]
+root         102  0.0  0.0      0     0 ?        I<   10:36   0:00 [ata_sff]
+root         103  0.0  0.0      0     0 ?        I<   10:36   0:00 [md]
+root         104  0.0  0.0      0     0 ?        I<   10:36   0:00 [edac-poller]
+root         105  0.0  0.0      0     0 ?        I<   10:36   0:00 [devfreq_wq]
+root         106  0.0  0.0      0     0 ?        S    10:36   0:00 [watchdogd]
+root         108  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/0:1H-kblockd]
+root         109  0.0  0.0      0     0 ?        S    10:36   0:00 [ksgxd]
+root         110  0.0  0.0      0     0 ?        S    10:36   0:00 [kswapd0]
+root         111  0.0  0.0      0     0 ?        S    10:36   0:00 [ecryptfs-kthread]
+root         117  0.0  0.0      0     0 ?        I<   10:36   0:00 [kthrotld]
+root         132  0.0  0.0      0     0 ?        I<   10:36   0:00 [acpi_thermal_pm]
+root         133  0.0  0.0      0     0 ?        S    10:36   0:00 [xenbus_probe]
+root         134  0.0  0.0      0     0 ?        I<   10:36   0:00 [vfio-irqfd-clea]
+root         135  0.0  0.0      0     0 ?        I<   10:36   0:00 [mld]
+root         136  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/7:1H-kblockd]
+root         137  0.0  0.0      0     0 ?        I<   10:36   0:00 [ipv6_addrconf]
+root         143  0.0  0.0      0     0 ?        I<   10:36   0:00 [kstrp]
+root         149  0.0  0.0      0     0 ?        I<   10:36   0:00 [zswap-shrink]
+root         198  0.0  0.0      0     0 ?        I<   10:36   0:00 [charger_manager]
+root         221  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/4:1H-events_highpri]
+root         234  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/10:1H-kblockd]
+root         255  0.0  0.0      0     0 ?        S    10:36   0:00 [scsi_eh_0]
+root         256  0.0  0.0      0     0 ?        I<   10:36   0:00 [scsi_tmf_0]
+root         257  0.0  0.0      0     0 ?        S    10:36   0:00 [scsi_eh_1]
+root         258  0.0  0.0      0     0 ?        I<   10:36   0:00 [scsi_tmf_1]
+root         259  0.0  0.0      0     0 ?        S    10:36   0:00 [scsi_eh_2]
+root         260  0.0  0.0      0     0 ?        I<   10:36   0:00 [scsi_tmf_2]
+root         261  0.0  0.0      0     0 ?        S    10:36   0:00 [scsi_eh_3]
+root         262  0.0  0.0      0     0 ?        I<   10:36   0:00 [scsi_tmf_3]
+root         263  0.0  0.0      0     0 ?        S    10:36   0:00 [scsi_eh_4]
+root         264  0.0  0.0      0     0 ?        I<   10:36   0:00 [scsi_tmf_4]
+root         279  0.0  0.0      0     0 ?        S    10:36   0:00 [irq/26-MSFT0001:01]
+root         282  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/9:1H-events_highpri]
+root         284  0.0  0.0      0     0 ?        I<   10:36   0:00 [nvme-wq]
+root         285  0.0  0.0      0     0 ?        I<   10:36   0:00 [nvme-reset-wq]
+root         286  0.0  0.0      0     0 ?        I<   10:36   0:00 [nvme-delete-wq]
+root         288  0.0  0.0      0     0 ?        I<   10:36   0:01 [kworker/2:1H-events_highpri]
+root         296  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/3:1H-events_highpri]
+root         298  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/6:1H-events_highpri]
+root         299  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/5:1H-kblockd]
+root         300  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/8:1H-events_highpri]
+root         321  0.0  0.0      0     0 ?        S    10:36   0:01 [jbd2/nvme1n1p3-8]
+root         322  0.0  0.0      0     0 ?        I<   10:36   0:00 [ext4-rsv-conver]
+root         357  0.0  0.0      0     0 ?        I<   10:36   0:01 [kworker/1:1H-events_highpri]
+root         362  0.0  0.0  56780 25428 ?        S<s  10:36   0:01 /lib/systemd/systemd-journald
+root         392  0.0  0.0  26948  7344 ?        Ss   10:36   0:00 /lib/systemd/systemd-udevd
+root         445  0.0  0.0      0     0 ?        I<   10:36   0:00 [kworker/11:1H-kblockd]
+root         475  0.0  0.0      0     0 ?        S    10:36   0:00 [irq/159-mei_me]
+root         500  0.0  0.0      0     0 ?        I<   10:36   0:00 [cfg80211]
+root         521  0.0  0.0      0     0 ?        I<   10:36   0:00 [cryptd]
+root         575  0.0  0.0      0     0 ?        S    10:36   0:05 [irq/160-iwlwifi:default_queue]
+root         576  0.0  0.0      0     0 ?        S    10:36   0:01 [irq/161-iwlwifi:queue_1]
+root         577  0.0  0.0      0     0 ?        S    10:36   0:01 [irq/162-iwlwifi:queue_2]
+root         578  0.0  0.0      0     0 ?        S    10:36   0:01 [irq/163-iwlwifi:queue_3]
+root         579  0.0  0.0      0     0 ?        S    10:36   0:03 [irq/164-iwlwifi:queue_4]
+root         580  0.0  0.0      0     0 ?        S    10:36   0:00 [irq/165-iwlwifi:exception]
+systemd+     583  0.0  0.0  14828  6276 ?        Ss   10:36   0:26 /lib/systemd/systemd-oomd
+systemd+     590  0.0  0.0  25920 14408 ?        Ss   10:36   0:02 /lib/systemd/systemd-resolved
+systemd+     591  0.0  0.0  89380  6612 ?        Ssl  10:36   0:00 /lib/systemd/systemd-timesyncd
+root         655  0.0  0.0      0     0 ?        S    10:36   0:00 [card0-crtc0]
+root         656  0.0  0.0      0     0 ?        S    10:36   0:00 [card0-crtc1]
+root         657  0.0  0.0      0     0 ?        S    10:36   0:00 [card0-crtc2]
+root         671  0.0  0.0      0     0 ?        S    10:36   0:00 [nv_queue]
+root         672  0.0  0.0      0     0 ?        S    10:36   0:00 [nv_queue]
+root         680  0.0  0.0      0     0 ?        S    10:36   0:00 [nvidia-modeset/kthread_q]
+root         681  0.0  0.0      0     0 ?        S    10:36   0:00 [nvidia-modeset/deferred_close_kthread_q]
+root         689  0.0  0.0 248948  8112 ?        Ssl  10:36   0:00 /usr/libexec/accounts-daemon
+root         690  0.0  0.0   2812  1152 ?        Ss   10:36   0:02 /usr/sbin/acpid
+avahi        693  0.0  0.0   7632  4308 ?        Ss   10:36   0:00 avahi-daemon: running [chisato.local]
+root         694  0.0  0.0  10944  5992 ?        Ss   10:36   0:00 /usr/lib/bluetooth/bluetoothd
+root         696  0.0  0.0  18148  3040 ?        Ss   10:36   0:00 /usr/sbin/cron -f -P
+message+     698  0.0  0.0  11252  7176 ?        Ss   10:36   0:03 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         699  0.0  0.0 418524 20960 ?        Ssl  10:36   0:03 /usr/sbin/NetworkManager --no-daemon
+root         705  0.0  0.0  82840  3904 ?        Ssl  10:36   0:02 /usr/sbin/irqbalance --foreground
+root         708  0.0  0.0  49736 20988 ?        Ss   10:36   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         711  0.0  0.0 236960 10160 ?        Ssl  10:36   0:02 /usr/libexec/polkitd --no-debug
+root         713  0.0  0.0 248996  8032 ?        Ssl  10:36   0:00 /usr/libexec/power-profiles-daemon
+syslog       716  0.0  0.0 222400  5968 ?        Ssl  10:36   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         721  0.0  0.1 1688096 40944 ?       Ssl  10:36   0:03 /usr/lib/snapd/snapd
+root         725  0.0  0.0 245336  7008 ?        Ssl  10:36   0:00 /usr/libexec/switcheroo-control
+root         727  0.0  0.0  48280  8340 ?        Ss   10:36   0:00 /lib/systemd/systemd-logind
+root         728  0.0  0.0 284708 10512 ?        Ssl  10:36   0:01 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         729  0.0  0.0 393024 13376 ?        Ssl  10:36   0:00 /usr/libexec/udisks2/udisksd
+root         730  0.0  0.0  17828 11780 ?        Ss   10:36   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        745  0.0  0.0   7440   336 ?        S    10:36   0:00 avahi-daemon: chroot helper
+root         775  0.0  0.0 317944 12636 ?        Ssl  10:36   0:00 /usr/sbin/ModemManager
+root         784  0.0  0.1 743096 38856 ?        Ssl  10:36   0:20 /snap/v2raya/11/usr/bin/v2raya --v2ray-bin /snap/v2raya/11/usr/local/bin/v2ray
+root         834  0.0  0.0  81700 13852 ?        Ss   10:36   0:00 /usr/sbin/cupsd -l
+root         846  0.0  0.0 126804 23832 ?        Ssl  10:36   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         852  0.1  0.1 2087816 46268 ?       Ssl  10:36   0:49 /usr/bin/containerd
+root         958  0.0  0.0      0     0 ?        S    10:36   0:00 [irq/172-nvidia]
+root         959  0.0  0.0      0     0 ?        S    10:36   0:00 [nvidia]
+root         960  0.0  0.0      0     0 ?        S    10:36   0:00 [nv_queue]
+root        1047  0.0  0.0 251112  9140 ?        Ssl  10:36   0:00 /usr/libexec/upowerd
+root        1162  0.0  0.0 250008  9276 ?        Ssl  10:36   0:00 /usr/sbin/gdm3
+root        1171  0.0  0.0      0     0 ?        S    10:36   0:00 [UVM global queue]
+root        1172  0.0  0.0      0     0 ?        S    10:36   0:00 [UVM deferred release queue]
+root        1173  0.0  0.0      0     0 ?        S    10:36   0:00 [UVM Tools Event Queue]
+nvidia-+    1189  0.0  0.0   5292  1876 ?        Ss   10:36   0:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+rtkit       1208  0.0  0.0 154000  1552 ?        SNsl 10:36   0:00 /usr/libexec/rtkit-daemon
+root        1403  0.0  0.0   2772   952 ?        S    10:36   0:00 bpfilter_umh
+root        1864  0.0  0.0 172612 11484 ?        Ssl  10:36   0:00 /usr/sbin/cups-browsed
+root        1865  0.0  0.2 2038928 67140 ?       Ssl  10:36   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops    1875  0.0  0.0  13080   452 ?        Ss   10:36   0:00 /usr/sbin/kerneloops --test
+kernoops    1877  0.0  0.0  13080   456 ?        Ss   10:36   0:00 /usr/sbin/kerneloops
+root        2160  0.0  0.0 1222284 2992 ?        Sl   10:36   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 6379 -container-ip 172.17.0.2 -container-port 6379
+root        2168  0.0  0.0 1148552 3004 ?        Sl   10:36   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 6379 -container-ip 172.17.0.2 -container-port 6379
+root        2181  0.0  0.0 1148296 3240 ?        Sl   10:36   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3306 -container-ip 172.17.0.3 -container-port 3306
+root        2188  0.0  0.0 1148296 2996 ?        Sl   10:36   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3306 -container-ip 172.17.0.3 -container-port 3306
+root        2209  0.0  0.0 712212  9540 ?        Sl   10:36   0:01 /usr/bin/containerd-shim-runc-v2 -namespace moby -id ed7a47c737546f243cabe2ecc7a78d884bb4494274f07306aba0d5db7e930803 -address /run/containerd/containerd.sock
+root        2210  0.0  0.0 712468 10248 ?        Sl   10:36   0:01 /usr/bin/containerd-shim-runc-v2 -namespace moby -id b42c3be2e6dd4a88c72bd5abd221e43ecd0bfb512514838492848c8ecc28d4b1 -address /run/containerd/containerd.sock
+999         2260  0.3  1.2 2369996 392724 ?      Ssl+ 10:36   2:47 mysqld
+999         2261  0.0  0.0  53692  8440 ?        Ssl+ 10:36   0:34 redis-server *:6379
+root        2385  0.0  0.1 382320 42064 ?        Ssl  10:36   0:08 /usr/libexec/packagekitd
+colord      2554  0.0  0.0 254372 13856 ?        Ssl  10:36   0:00 /usr/libexec/colord
+root        2766  0.0  0.0 179524 11184 ?        Sl   10:36   0:00 gdm-session-worker [pam/gdm-password]
+chisato     2779  0.0  0.0  18012 10848 ?        Ss   10:36   0:00 /lib/systemd/systemd --user
+chisato     2780  0.0  0.0 170160  4284 ?        S    10:36   0:00 (sd-pam)
+chisato     2786  0.0  0.0  48504  6840 ?        S<sl 10:36   0:00 /usr/bin/pipewire
+chisato     2787  0.0  0.0  32260  6640 ?        Ssl  10:36   0:00 /usr/bin/pipewire-media-session
+chisato     2788  0.0  0.0 1770236 30252 ?       S<sl 10:36   0:23 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+chisato     2800  0.0  0.0 249864  8108 ?        SLl  10:36   0:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+chisato     2804  0.0  0.0   9780  6144 ?        Ss   10:36   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+chisato     2808  0.0  0.0 249476  8576 ?        Ssl  10:36   0:00 /usr/libexec/gvfsd
+chisato     2817  0.0  0.0 380884  5980 ?        Sl   10:36   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+chisato     2839  0.0  0.0 545836  7752 ?        Ssl  10:36   0:02 /usr/libexec/xdg-document-portal
+chisato     2842  0.0  0.0 245080  5392 ?        Ssl  10:36   0:00 /usr/libexec/xdg-permission-store
+root        2849  0.0  0.0   2792  1028 ?        Ss   10:36   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+chisato     2867  0.0  0.0 642284 28288 ?        SNsl 10:36   0:00 /usr/libexec/tracker-miner-fs-3
+root        2888  0.0  0.0      0     0 ?        S<   10:36   0:00 [krfcommd]
+chisato     2890  0.0  0.0 324900  9796 ?        Ssl  10:36   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+chisato     2895  0.0  0.0 324040  8316 ?        Ssl  10:36   0:00 /usr/libexec/gvfs-afc-volume-monitor
+chisato     2900  0.0  0.0 245468  6916 ?        Ssl  10:36   0:00 /usr/libexec/gvfs-goa-volume-monitor
+chisato     2908  0.0  0.1 573468 39976 ?        Sl   10:36   0:00 /usr/libexec/goa-daemon
+chisato     2915  0.0  0.0 347348 15144 ?        Sl   10:36   0:00 /usr/libexec/goa-identity-service
+chisato     2917  0.0  0.0 245264  6668 ?        Ssl  10:36   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+chisato     2925  0.0  0.0 246352  6812 ?        Ssl  10:36   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+chisato     2959  0.0  0.0 171240  6364 tty2     Ssl+ 10:36   0:00 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+chisato     2961  1.6  0.4 27183516 153448 tty2  Sl+  10:36  12:08 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+chisato     3107  0.0  0.0  76120 11924 ?        Ss   10:36   0:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+chisato     3178  0.0  0.1 511636 59324 ?        Sl   10:36   0:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+chisato     3180  0.0  0.0 231848 16060 tty2     Sl+  10:36   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+chisato     3268  0.0  0.0 1027268 16448 ?       Ssl  10:36   0:03 /usr/libexec/xdg-desktop-portal
+chisato     3271  0.0  0.0 309732  8468 ?        Ssl  10:36   0:00 /usr/libexec/at-spi-bus-launcher
+chisato     3276  0.0  0.2 1611640 94916 ?       Ssl  10:36   0:01 /usr/libexec/xdg-desktop-portal-gnome
+chisato     3279  0.0  0.0   8560  4556 ?        S    10:36   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_1
+chisato     3321  0.0  0.0 100556  5228 ?        Ssl  10:36   0:00 /usr/libexec/gnome-session-ctl --monitor
+chisato     3333  0.0  0.0 602420 18800 ?        Ssl  10:36   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+chisato     3354  1.9  1.1 6480276 369992 ?      Ssl  10:36  14:16 /usr/bin/gnome-shell
+chisato     3366  0.0  0.0 356340 31240 ?        Ssl  10:36   0:00 /usr/libexec/xdg-desktop-portal-gtk
+chisato     3375  0.0  0.0 162748  8344 ?        Sl   10:36   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+chisato     3437  0.0  0.0 582760 17852 ?        Sl   10:36   0:00 /usr/libexec/gnome-shell-calendar-server
+chisato     3443  0.0  0.0 1081228 27176 ?       Ssl  10:36   0:00 /usr/libexec/evolution-source-registry
+chisato     3452  0.0  0.0 849512 31204 ?        Ssl  10:36   0:00 /usr/libexec/evolution-calendar-factory
+chisato     3460  0.0  0.0 157320  6448 ?        Ssl  10:36   0:00 /usr/libexec/dconf-service
+chisato     3466  0.0  0.1 681596 33932 ?        Ssl  10:36   0:00 /usr/libexec/evolution-addressbook-factory
+chisato     3476  0.0  0.0 323808  8896 ?        Sl   10:36   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+chisato     3492  0.0  0.0 2874668 28496 ?       Sl   10:37   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+chisato     3509  0.0  0.0   2888   976 ?        Ss   10:37   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+chisato     3510  0.0  0.0 319432  7088 ?        Ssl  10:37   0:00 /usr/libexec/gsd-a11y-settings
+chisato     3512  0.2  0.0 327952 19376 ?        Sl   10:37   1:42 /usr/bin/ibus-daemon --panel disable --xim
+chisato     3513  0.0  0.1 623504 33104 ?        Ssl  10:37   0:00 /usr/libexec/gsd-color
+chisato     3515  0.0  0.0 384464 16812 ?        Ssl  10:37   0:00 /usr/libexec/gsd-datetime
+chisato     3518  0.0  0.0 321196  8088 ?        Ssl  10:37   0:00 /usr/libexec/gsd-housekeeping
+chisato     3521  0.0  0.0 354392 28600 ?        Ssl  10:37   0:00 /usr/libexec/gsd-keyboard
+chisato     3524  0.0  0.1 878152 33868 ?        Ssl  10:37   0:00 /usr/libexec/gsd-media-keys
+chisato     3527  0.0  0.0 463996 31896 ?        Ssl  10:37   0:00 /usr/libexec/gsd-power
+chisato     3531  0.0  0.0 258712 11776 ?        Ssl  10:37   0:00 /usr/libexec/gsd-print-notifications
+chisato     3533  0.0  0.0 466716  6900 ?        Ssl  10:37   0:00 /usr/libexec/gsd-rfkill
+chisato     3534  0.0  0.0 245148  6640 ?        Ssl  10:37   0:00 /usr/libexec/gsd-screensaver-proxy
+chisato     3535  0.0  0.0 474964 11520 ?        Ssl  10:37   0:01 /usr/libexec/gsd-sharing
+chisato     3537  0.0  0.0 395048  8412 ?        Ssl  10:37   0:00 /usr/libexec/gsd-smartcard
+chisato     3538  0.0  0.0 328348  9616 ?        Ssl  10:37   0:00 /usr/libexec/gsd-sound
+chisato     3540  0.0  0.0 354408 28968 ?        Ssl  10:37   0:00 /usr/libexec/gsd-wacom
+chisato     3542  0.0  0.0 356628 31576 ?        Ssl  10:37   0:00 /usr/libexec/gsd-xsettings
+chisato     3563  0.0  0.0 236744  7884 ?        Ssl  10:37   0:00 /usr/libexec/glib-pacrunner
+chisato     3583  0.0  0.0 232260  6484 ?        Sl   10:37   0:00 /usr/libexec/gsd-disk-utility-notify
+chisato     3587  0.0  0.0 190452 19176 ?        Sl   10:37   0:00 python3 /usr/libexec/gnome-tweak-tool-lid-inhibitor
+chisato     3590  0.0  0.0 172412  7520 ?        Sl   10:37   0:00 /usr/libexec/ibus-memconf
+chisato     3594  0.0  0.1 284840 36336 ?        Sl   10:37   0:39 /usr/libexec/ibus-extension-gtk3
+chisato     3598  0.0  0.2 928296 76232 ?        Sl   10:37   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+chisato     3609  0.0  0.0 207032 28940 ?        Sl   10:37   0:00 /usr/libexec/ibus-x11 --kill-daemon
+chisato     3619  0.0  0.0 246824  9408 ?        Sl   10:37   0:02 /usr/libexec/ibus-portal
+chisato     3644  0.0  0.6 1495232 210584 ?      Sl   10:37   0:05 /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+chisato     3654  0.0  0.0 351216 14092 ?        Sl   10:37   0:00 /usr/libexec/gsd-printer
+chisato     3665  0.0  0.1 3327160 61856 ?       Sl   10:37   0:03 gjs /home/chisato/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/daemon.js
+chisato     3774  0.0  0.0 2882860 28548 ?       Sl   10:37   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+chisato     3839  0.0  0.1 409708 57956 ?        Sl   10:37   0:36 /usr/libexec/ibus-engine-libpinyin --ibus
+chisato     3909  0.8  0.0 843032 30912 ?        Sl   10:37   6:01 conky -c /home/chisato/.config/conky/Graffias/Graffias.conf
+chisato     4019  0.0  0.2 3183752 78716 ?       Sl   10:37   0:17 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:28:66:0:0:0
+chisato     4038  0.0  0.0 172024  7100 ?        Ssl  10:37   0:00 /usr/libexec/gvfsd-metadata
+chisato     4847  0.0  0.0 172412  7516 ?        Sl   10:37   0:00 /usr/libexec/ibus-engine-simple
+chisato     5641  0.0  0.0 428852 30484 ?        Sl   10:38   0:00 update-notifier
+chisato     6446  0.0  0.0 938516  9844 ?        Sl   10:41   0:00 /usr/libexec/gvfsd-network --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+chisato     6459  0.0  0.0 325660  9152 ?        Sl   10:41   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.2 /org/gtk/gvfs/exec_spaw/3
+chisato     6967  0.0  0.0  46948  7240 ?        Ss   10:47   0:00 /usr/lib/bluetooth/obexd
+chisato     8276  0.4  0.5 38419372 176888 ?     SLl  10:55   3:29 /usr/share/code/code --unity-launch --enable-crashpad
+chisato     8280  0.0  0.1 33765176 43936 ?      S    10:55   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox --enable-crashpad --enable-crashpad
+chisato     8281  0.0  0.1 33765168 44088 ?      S    10:55   0:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+chisato     8283  0.0  0.0 33765192 11296 ?      S    10:55   0:00 /usr/share/code/code --type=zygote --enable-crashpad --enable-crashpad
+chisato     8296  0.0  0.0 33575772 3336 ?       Sl   10:55   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/chisato/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=1d9efb21-66f9-466c-8081-5b4bf20046b0&iid=1d9efb21-66f9-466c-8081-5b4bf20046b0&sid=1d9efb21-66f9-466c-8081-5b4bf20046b0 --annotation=IsOfficialBuild=1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.76.1 --annotation=exe=/usr/share/code/code --unity-launch --enable-crashpad --annotation=lsb-release=Ubuntu 22.04.2 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=19.1.11 --initial-client-fd=45 --shared-client-connection
+chisato     8315  1.0  0.4 34254844 153572 ?     Sl   10:55   7:09 /usr/share/code/code --type=gpu-process --enable-crashpad --crashpad-handler-pid=8296 --enable-crash-reporter=7b4a6d7b-5b0c-44d2-8896-252d96307f65,no_channel --user-data-dir=/home/chisato/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,4795791836915638779,1619473549144813645,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+chisato     8318  0.0  0.1 33830900 62112 ?      Sl   10:55   0:01 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=8296 --enable-crash-reporter=7b4a6d7b-5b0c-44d2-8896-252d96307f65,no_channel --user-data-dir=/home/chisato/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4795791836915638779,1619473549144813645,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+chisato     8417  0.1  0.5 46709876 165752 ?     Sl   10:55   0:57 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=8296 --enable-crash-reporter=7b4a6d7b-5b0c-44d2-8896-252d96307f65,no_channel --user-data-dir=/home/chisato/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=1145804705 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4795791836915638779,1619473549144813645,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:3f849349-1736-4b8b-aef9-57b6f09e94a2 --vscode-window-kind=shared-process --enable-crashpad
+chisato     8437  0.0  0.2 38194660 84340 ?      Sl   10:55   0:25 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/chisato/.config/Code/logs/20230315T105513
+root       37444  0.0  0.0      0     0 ?        I    17:36   0:00 [kworker/11:0-mm_percpu_wq]
+root       39176  0.0  0.0      0     0 ?        I    18:21   0:01 [kworker/2:1-events]
+root       40250  0.0  0.0      0     0 ?        I    18:41   0:01 [kworker/1:0-events]
+root       40507  0.0  0.0      0     0 ?        I    18:45   0:00 [kworker/10:2-mm_percpu_wq]
+root       43506  0.0  0.0      0     0 ?        I    19:31   0:00 [kworker/4:0-events]
+root       46384  0.1  0.0      0     0 ?        I    20:44   0:10 [kworker/0:2-events]
+chisato    47267  1.9  1.1 34284964 362480 ?     SLl  21:29   1:29 /opt/google/chrome/chrome
+chisato    47273  0.0  0.0  17164  1024 ?        S    21:29   0:00 cat
+chisato    47274  0.0  0.0  17164  1028 ?        S    21:29   0:00 cat
+chisato    47276  0.0  0.0 33576952 3604 ?       Sl   21:29   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/chisato/.config/google-chrome/Crash Reports --metrics-dir=/home/chisato/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04.2 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=111.0.5563.64 --initial-client-fd=5 --shared-client-connection
+chisato    47278  0.0  0.0 33567716 3296 ?       Sl   21:29   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/chisato/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04.2 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=111.0.5563.64 --initial-client-fd=4 --shared-client-connection
+chisato    47284  0.0  0.1 33859668 59484 ?      S    21:29   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable
+chisato    47285  0.0  0.1 33859660 59416 ?      S    21:29   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable
+chisato    47286  0.0  0.0 33568480 5128 ?       S    21:29   0:00 /opt/google/chrome/nacl_helper
+chisato    47289  0.0  0.0 33859684 16024 ?      S    21:29   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable
+chisato    47313  3.7  0.6 34373040 198596 ?     Sl   21:29   2:55 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47314  0.4  0.3 33929488 118268 ?     Sl   21:29   0:20 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47324  0.0  0.1 33910028 51296 ?      Sl   21:29   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=zh-CN --service-sandbox-type=utility --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47391  0.4  0.5 1185865788 184388 ?   Sl   21:29   0:20 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=39217986440 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47425  0.1  0.3 1185871872 128292 ?   Sl   21:29   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=39218012673 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47438  0.0  0.2 1185829220 96356 ?    Sl   21:29   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=39218025582 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47455  0.0  0.3 1185862196 113888 ?   Sl   21:29   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=39218036299 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47465  0.0  0.2 1185839720 96744 ?    Sl   21:29   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=39218043684 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    47491  0.0  0.0 2866232 28280 ?       Sl   21:29   0:00 gjs /home/chisato/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/nativeMessagingHost.js chrome-extension://jfnifeihccihocjbfcfhicmmgpjicaec/
+chisato    47916  0.1  0.2 34167568 79448 ?      Sl   21:30   0:06 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=zh-CN --service-sandbox-type=none --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+root       49105  0.0  0.0      0     0 ?        I    21:47   0:00 [kworker/6:2-events]
+root       49665  0.0  0.0      0     0 ?        I    21:48   0:00 [kworker/9:2-events]
+root       49806  0.0  0.0      0     0 ?        I    21:51   0:00 [kworker/u24:4-events_unbound]
+root       49852  0.0  0.0      0     0 ?        I    21:51   0:00 [kworker/4:2]
+root       50923  0.0  0.0      0     0 ?        I    21:59   0:00 [kworker/3:2-mm_percpu_wq]
+chisato    51889 11.3  0.9 57195592 305888 ?     Sl   22:01   5:21 /usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=8296 --enable-crash-reporter=7b4a6d7b-5b0c-44d2-8896-252d96307f65,no_channel --user-data-dir=/home/chisato/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=41090912908 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4795791836915638779,1619473549144813645,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:86e7c677-a008-45d8-968f-ca316968666b
+chisato    51967  0.7  0.4 38197840 154528 ?     Sl   22:01   0:20 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=zh-CN --service-sandbox-type=none --inspect-port=0 --enable-crashpad --crashpad-handler-pid=8296 --enable-crash-reporter=7b4a6d7b-5b0c-44d2-8896-252d96307f65,no_channel --user-data-dir=/home/chisato/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4795791836915638779,1619473549144813645,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+chisato    51982  0.0  0.2 38170036 72556 ?      Sl   22:01   0:00 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+chisato    52052  0.0  0.2 38120280 81056 ?      Sl   22:01   0:02 /usr/share/code/code --ms-enable-electron-run-as-node /home/chisato/.vscode/extensions/kisstkondoros.vscode-gutter-preview-0.30.0/dist/server.js --node-ipc --clientProcessId=51967
+chisato    52060  0.6  0.1 1508888 43172 ?       Sl   22:01   0:17 /home/chisato/.vscode/extensions/ms-vscode.cpptools-1.14.4-linux-x64/bin/cpptools
+chisato    52086  0.0  0.0  20212  5964 pts/3    Ss   22:01   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+chisato    52149  0.1  0.0 5541140 26800 ?       Sl   22:01   0:03 /home/chisato/.vscode/extensions/ms-vscode.cpptools-1.14.4-linux-x64/bin/cpptools-srv 52060 {E99196C8-77D4-459E-BFE5-6A7B55F4C076}
+chisato    52406  0.5  0.7 1185907548 230968 ?   Sl   22:02   0:15 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=46 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=41200719039 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    53122  0.0  0.3 1185839592 98160 ?    Sl   22:03   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=53 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=41246003837 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+root       54713  0.1  0.1 5070724 52480 ?       Sl   22:04   0:03 /snap/v2raya/11/usr/local/bin/v2ray run --config=/var/snap/v2raya/11/etc/config.json
+root       54959  0.0  0.0      0     0 ?        I    22:04   0:00 [kworker/1:1-events]
+chisato    55288  0.2  0.6 1185923748 221032 ?   Sl   22:05   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=69 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=41347403707 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+root       55578  0.0  0.0      0     0 ?        I    22:10   0:00 [kworker/10:1]
+root       55777  0.0  0.0      0     0 ?        I<   22:13   0:01 [kworker/u25:1-rb_allocator]
+root       56271  0.0  0.0      0     0 ?        I    22:18   0:00 [kworker/u24:2-events_power_efficient]
+chisato    56300  0.0  0.0  20060  5620 pts/4    Ss+  22:19   0:00 /usr/bin/bash
+chisato    56422  0.0  0.3 1185837416 103304 ?   Sl   22:19   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --extension-process --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=74 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=42212571078 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    56440  0.0  0.1 207136 33324 ?        Sl   22:19   0:00 /usr/bin/python3 /usr/bin/chrome-gnome-shell chrome-extension://gphhapmejobijbbhgpjhcjognlahblep/
+root       57117  0.0  0.0      0     0 ?        I    22:26   0:00 [kworker/5:0-events]
+root       57269  0.0  0.0      0     0 ?        I    22:28   0:00 [kworker/u24:3-flush-259:3]
+root       57313  0.0  0.0      0     0 ?        I    22:29   0:00 [kworker/3:0-events]
+root       57365  0.0  0.0      0     0 ?        I    22:29   0:00 [kworker/9:1-mm_percpu_wq]
+root       57495  0.0  0.0      0     0 ?        I    22:31   0:00 [kworker/0:0-events]
+root       57500  0.0  0.0      0     0 ?        I    22:31   0:00 [kworker/2:0-events]
+root       57501  0.0  0.0      0     0 ?        I    22:31   0:00 [kworker/11:1]
+root       57538  0.0  0.0      0     0 ?        I    22:31   0:00 [kworker/7:0-mm_percpu_wq]
+root       57731  0.0  0.0      0     0 ?        I    22:33   0:00 [kworker/8:0-events]
+root       57747  0.0  0.0      0     0 ?        I    22:34   0:00 [kworker/6:0-mm_percpu_wq]
+root       57811  0.0  0.0      0     0 ?        I    22:35   0:00 [kworker/5:1-events]
+root       58099  0.0  0.0      0     0 ?        I    22:39   0:00 [kworker/8:2-events]
+root       58213  0.0  0.0      0     0 ?        I<   22:40   0:00 [kworker/u25:0-i915_flip]
+root       58249  0.0  0.0      0     0 ?        I    22:40   0:00 [kworker/7:2-events]
+root       58328  0.0  0.0      0     0 ?        I    22:42   0:00 [kworker/u24:0-events_power_efficient]
+root       58493  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/3:1-events]
+root       58562  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/5:2-events]
+root       58602  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/1:2-events]
+root       58642  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/6:1]
+root       58656  0.0  0.0      0     0 ?        I    22:44   0:00 [kworker/8:1-events]
+chisato    58972  0.0  0.1 42282116 45716 ?      Sl   22:45   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=zh-CN --service-sandbox-type=service --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    59002  1.7  0.5 1185890064 188608 ?   Sl   22:45   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=91 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=43771202990 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+chisato    59029  0.0  0.2 1185788236 67160 ?    Sl   22:45   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=47276 --enable-crash-reporter=3adffae3-417b-487d-a716-c266fd7361d5, --change-stack-guard-on-fork=enable --lang=zh-CN --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=92 --time-ticks-at-unix-epoch=-1678847770324356 --launch-time-ticks=43773063096 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,12253430891657211844,4426016865211307937,131072
+root       59059  0.0  0.0      0     0 ?        I<   22:45   0:00 [kworker/u25:2]
+chisato    59368  0.0  0.0  21768  3848 pts/3    R+   22:48   0:00 ps -aux
